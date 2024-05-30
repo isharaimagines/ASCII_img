@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+.footer {
+  --dark-color: transparent;
+  background: var(--dark-color);
+  padding: 2rem 4rem;
+  font-family: "Nanum Pen Script", cursive;
+}
+.footer .f_container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.footer .f_container .align-items-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  color: #fff;
+  font-size: 1.4rem;
+}
+.footer .f_container .align-items-center .col {
+  width: 140px;
+  height: 50%;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+.footer .f_container .align-items-center .col img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.footer .f_container .align-items-center .discription {
+  padding: 1rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .f_container .align-items-center .discription h4 {
+  padding: 10px 0 10px 0;
+  text-align: left;
+  margin: 0;
+}
+.footer .f_container .align-items-center .discription small {
+  padding: 10px 0 10px 0;
+  text-align: justify;
+}
+.footer .f_container .align-items-center .discription small a {
+  color: aquamarine;
+}
+
+.social {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.social .social-icon {
+  position: relative;
+  text-align: center;
+  padding: 16px;
+}
+.social .social-icon a {
+  width: 18px;
+  height: 18px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.social .social-icon a i {
+  font-size: 26px;
+  background: rgba(217, 217, 217, 0.1);
+  padding: 12px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.social .social-icon a i:hover {
+  background: #fff;
+  color: #222;
+}
+.social p {
+  padding: 10px;
+}
+
+@media (max-width: 576px) {
+  .footer .f_container .align-items-center {
+    flex-direction: column;
+    height: auto;
+  }
+  .footer .f_container {
+    flex-direction: column;
+  }
+  .footer .f_container .align-items-center {
+    align-items: center;
+    justify-content: center;
+  }
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    padding: 0 50px;
+  }
+  .navbar-text button {
+    margin-left: 50px;
+  }
+  .footer .f_container .align-items-center .col {
+    height: 80%;
+  }
+  .footer .f_container .align-items-center .discription {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer .f_container .align-items-center {
+    flex-direction: column;
+    height: auto;
+  }
+  .footer .f_container {
+    flex-direction: column;
+  }
+  .footer .f_container .align-items-center {
+    align-items: center;
+    justify-content: center;
+  }
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    padding: 0 50px;
+  }
+  .navbar-text button {
+    margin-left: 50px;
+  }
+  .footer .f_container .align-items-center .col {
+    height: 80%;
+  }
+  .footer .f_container .align-items-center .discription {
+    width: 80%;
+  }
+}
+
+@media (max-width: 992px) {
+  .footer .f_container .align-items-center {
+    flex-direction: column;
+    height: auto;
+  }
+  .footer .f_container {
+    flex-direction: column;
+  }
+  .footer .f_container .align-items-center {
+    align-items: center;
+    justify-content: center;
+  }
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    padding: 0 50px;
+  }
+  .navbar-text button {
+    margin-left: 50px;
+  }
+  .footer .f_container .align-items-center .col {
+    height: 80%;
+  }
+  .footer .f_container .align-items-center .discription {
+    width: 80%;
+  }
+}
